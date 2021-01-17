@@ -10,7 +10,7 @@ The NOtepad is two themed one is black while other is white . Check out Both .
 For Black theme jtatoo is used .
 
 ![](no.JPG)
-![](no1.jpg)
+![](no1.JPG)
 
 ## Installation
 
