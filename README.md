@@ -9,8 +9,8 @@ It has short cuts for copy paste . It can do all other things that Notepad does 
 The NOtepad is two themed one is black while other is white . Check out Both .
 For Black theme jtatoo is used .
 
-![](no.png)
-![](no1.png)
+![](no.jpg)
+![](no1.jpg)
 
 ## Installation
 
