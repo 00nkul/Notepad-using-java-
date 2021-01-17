@@ -16,12 +16,13 @@ For Black theme jtatoo is used .
 
 .exe file is provided in the check it out .(Requires JDK )
 Also ,you can also chekckout the jar files .
-
+The entire code is based on JDK 1.8 might show some problems in newest versions .
 
 ## Development setup
 
 You can either run the  .exe files or jre .
 Make sure you have JDK installed in your system.
+The entire code is based on JDK 1.8 might show some problems in newest versions .
 
 
 
