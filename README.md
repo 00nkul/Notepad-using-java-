@@ -13,10 +13,13 @@ For Black theme jtatoo is used .
 ![](no1.JPG)
 
 ## Installation
-
+#for direct use :-
 .exe file is provided in the check it out .(Requires JDK )
 Also ,you can also chekckout the jar files .
 The entire code is based on JDK 1.8 might show some problems in newest versions .
+
+#for code:-
+just fork and clone this repo
 
 ## Development setup
 
@@ -36,3 +39,4 @@ The entire code is based on JDK 1.8 might show some problems in newest versions 
 
 Redy for changes .
 Feel free for Contributing .
+
