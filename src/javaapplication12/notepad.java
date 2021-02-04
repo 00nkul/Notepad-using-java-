@@ -355,12 +355,10 @@ public class notepad extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
         jTextArea1.setVisible(true);
     }                                          
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
         ac++ ;
         int returnVal = jFileChooser1.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION){
@@ -380,21 +378,17 @@ public class notepad extends javax.swing.JFrame {
     }                                          
 
     private void jMenuItem6FocusGained(java.awt.event.FocusEvent evt) {                                       
-        // TODO add your handling code here:
     }                                      
 
     private void jMenu1ActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
        
     }                                      
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
         System.exit(0);
     }                                          
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here: CLOSE BUTTON
         jTextArea1.setVisible(false);
         jTextArea1.setText("");
         
@@ -402,21 +396,18 @@ public class notepad extends javax.swing.JFrame {
     }                                          
 
     private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        jTextArea1.cut();        // TODO add your handling code here:   
+        jTextArea1.cut();          
     }                                          
 
     private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
         jTextArea1.copy();
     }                                          
 
     private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
         jTextArea1.paste();
     }                                          
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here: SAVE FILE
         ac++ ;
         if (ac ==1) {
           JFileChooser saveFile = new JFileChooser();
@@ -452,7 +443,6 @@ public class notepad extends javax.swing.JFrame {
     }                                          
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here: SAVE AS
         ac++;
         JFileChooser saveFile = new JFileChooser();
           int retrival = saveFile.showSaveDialog(null);
@@ -471,40 +461,34 @@ public class notepad extends javax.swing.JFrame {
     }                                          
 
     private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:COlorChoser.....
         Color color = JColorChooser.showDialog(this,"Select Color",Color.BLACK);
         jTextArea1.setForeground(color);
         
     }                                           
 
     private void jMenu4ActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
         new About_Us().setVisible(false);
         
     }                                      
 
     private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
         new About_Us().setVisible(true);
     }                                           
 
     private void jMenuItem14ActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
         new fonts().setVisible(true);
     }                                           
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+
         jTextArea1.cut();
     }                                        
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
         jTextArea1.copy();
     }                                        
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
         jTextArea1.paste();
     }                                        
 

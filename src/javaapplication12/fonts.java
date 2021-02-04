@@ -121,6 +121,10 @@ public class fonts extends javax.swing.JFrame {
         });
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
+            /**
+             *
+             */
+            private static final long serialVersionUID = 1L;
             String[] strings = { "Aerial", "Welding", "Tahoma", "Ravie", "Rockwell" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
@@ -209,14 +213,12 @@ public class fonts extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jCheckBox1ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jCheckBox1ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.BOLD,fonts);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
     }//GEN-LAST:event_jCheckBox1ItemStateChanged
 
     private void jRadioButton3ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jRadioButton3ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.PLAIN,40);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
@@ -224,25 +226,21 @@ public class fonts extends javax.swing.JFrame {
     }//GEN-LAST:event_jRadioButton3ItemStateChanged
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
-        // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void jCheckBox2ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jCheckBox2ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.ITALIC,fonts);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
     }//GEN-LAST:event_jCheckBox2ItemStateChanged
 
     private void jCheckBox3ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jCheckBox3ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.PLAIN,fonts);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
     }//GEN-LAST:event_jCheckBox3ItemStateChanged
 
     private void jRadioButton1ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jRadioButton1ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.PLAIN,20);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
@@ -250,12 +248,10 @@ public class fonts extends javax.swing.JFrame {
     }//GEN-LAST:event_jRadioButton1ItemStateChanged
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.PLAIN,20);
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jRadioButton2ItemStateChanged
-        // TODO add your handling code here:
         Font f1 =new Font("",Font.PLAIN,30);
         jLabel1.setFont(f1);
         notepad.jTextArea1.setFont(f1);
@@ -270,7 +266,7 @@ public class fonts extends javax.swing.JFrame {
             jLabel1.setFont(f1);
             notepad.jTextArea1.setFont(f1);
         }
-        else // TODO add your handling code here:
+        else 
         switch (jList1.getSelectedValue()) {
             case "Arial":
             {
@@ -309,10 +305,9 @@ public class fonts extends javax.swing.JFrame {
             }
         }
 
-    }//GEN-LAST:event_jList1MouseClicked
+    }
 
     private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jComboBox1ItemStateChanged
-        // TODO add your handling code here:
         if(jComboBox1.getSelectedItem()=="Red")
         {
 
@@ -334,11 +329,9 @@ public class fonts extends javax.swing.JFrame {
     }//GEN-LAST:event_jComboBox1ItemStateChanged
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
